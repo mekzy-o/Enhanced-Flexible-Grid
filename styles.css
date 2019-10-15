@@ -1,0 +1,28 @@
+.container,
+.row {
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
+.column {
+  width: 25%;
+  background-color: lightblue;
+  box-sizing: border-box;
+  border: 1px solid black;
+  float: left;
+  height: 25px;
+}
+@media screen and (max-width: 720px) {
+  .column {
+    width: 50%;
+  }
+  h2 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .column {
+    width: 100%;
+  }
+}
